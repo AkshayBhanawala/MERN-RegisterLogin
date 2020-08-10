@@ -1,4 +1,4 @@
-# Register & Login Demo [MERN]
+# [Register & Login Demo [MERN]](https://th3az-mern-registerlogin.herokuapp.com/)
 A demo Register and Login Application using MERN stack.
 Developed this to learn about the MERN stack.
 All there is to this app is to Register and Login.
