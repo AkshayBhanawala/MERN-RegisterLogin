@@ -1,4 +1,4 @@
-# MERN-RegisterLogin
+# Register & Login Demo [MERN]
 A demo Register and Login Application using MERN stack.
 Developed this to learn about the MERN stack.
 All there is to this app is to Register and Login.
