@@ -19,8 +19,8 @@ https://th3az-mern-registerlogin.herokuapp.com/
 
 
 #### Logins availabel by default
-**Admin:Admin@123** \
-**User:User@123** \
+**Admin:Admin@123**
+**User:User@123**
 
 ##### Or those details which you used for registration
 
