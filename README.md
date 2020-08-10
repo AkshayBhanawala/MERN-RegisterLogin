@@ -14,7 +14,7 @@ After that there is nothing to see..
  - JWT Tokens [for server side state management]
 
 
-#### Deployed URL
+### Deployed URL
 https://th3az-mern-registerlogin.herokuapp.com/
 
 
