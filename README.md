@@ -26,5 +26,5 @@ https://th3az-mern-registerlogin.herokuapp.com/
 **Admin:Admin@123** \
 **User:User@123**
 
-##### Or those details which you used for registration
+**Or those details which you used for registration**
 
