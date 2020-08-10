@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:200,300,400,500,600,700,800,900|Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+/* Light Color Theme */
+:root {
+	--background-color: #EFEFEF;
+	--background-color-2: #FDFDFD;
+	--color: #191919;
+	--theaz-logo: url('./assets/svg/TH3AZ\ [Dark-Outline].svg');
+	--color-console-green: #2ECC71;
+	--color-console-red: #E74C3C;
+	--color-console-yellow: #F1C40F;
+}
+
+/* Dark Color Theme */
+:root {
+	--background-color: #101010;
+	--background-color-2: #020202;
+	--color: #E7E7E7;
+	--theaz-logo: url('./assets/svg/TH3AZ\ [Light-Outline].svg');
+}
+
+/* general */
+:root {
+	--shadow-color-1: #02020299;
+	--color-console-green: #2ECC71;
+	--color-console-red: #E74C3C;
+}
+
+body,
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
+	background-color: var(--background-color) !important;
+}
+
+body,
+body * {
+	color: var(--color) !important;
+	font-weight: 300 !important;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+	font-family: 'Inconsolata', monospace !important;
+	font-weight: 300 !important;
+}

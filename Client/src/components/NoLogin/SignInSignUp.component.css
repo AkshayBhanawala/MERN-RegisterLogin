@@ -1,0 +1,38 @@
+.operations {
+	display: block;
+	flex-direction: row !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.operations .col {
+	display: flex !important;
+	flex-direction: row;
+	justify-content: center;
+	padding: 0 !important;
+	margin: 0 5px !important;
+	width: 100% !important;
+	white-space: nowrap;
+}
+
+.link {
+	display: flex !important;
+	flex-direction: column;
+	align-items: center;
+	width: 100% !important;
+	height: 100% !important;
+	max-width: 300px;
+	font-size: 150% !important;
+}
+
+.link > div {
+	width: 100%;
+	text-align: center;
+}
+.link svg {
+	width: 100% !important;
+	height: 100% !important;
+}
+.link:hover {
+	text-decoration: none !important;
+}

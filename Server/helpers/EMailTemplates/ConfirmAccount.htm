@@ -1,0 +1,132 @@
+<html>
+
+<head>
+	<title>
+		MERN Demo App
+	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;700&family=Poppins:wght@300;500;700&display=swap"
+		rel="stylesheet">
+	<style>
+		.email-body {
+			padding: 0;
+			margin: 0;
+			width: 100%;
+			padding-top: 3vh;
+			padding-bottom: 5vh;
+			background-color: #101010;
+			font-family: 'Inconsolata', 'Poppins' !important;
+			font-weight: 300 !important;
+		}
+
+		.email-body,
+		.email-body * {
+			color: #E7E7E7;
+			box-sizing: border-box;
+		}
+
+		table {
+			margin: 0 auto;
+		}
+
+		td {
+			text-align: center;
+		}
+
+		img {
+			height: auto;
+			width: 80%;
+			max-width: 700px;
+			min-width: 280px;
+		}
+
+		.heading {
+			display: block;
+			font-size: 40px;
+			margin-top: 5vh;
+		}
+
+		.highlight {
+			margin-top: 2vh;
+			display: block;
+			font-size: 30px;
+			font-weight: 700 !important;
+		}
+
+		.info {
+			display: block;
+			font-size: 22px;
+			margin-top: 1vh;
+		}
+
+		.btn,
+		.btn:visited {
+			margin-top: 5vh;
+			text-decoration: none;
+			display: inline-block;
+			font-family: 'Poppins' !important;
+			font-weight: 500 !important;
+			font-size: 22px;
+			padding: 10px 70px;
+			color: #E7E7E7 !important;
+			border: 2px solid #E7E7E7 !important;
+			transition: ease-in 0.2s !important;
+		}
+
+		.btn:hover,
+		.btn:focus {
+			background-color: #E7E7E7 !important;
+			color: #101010 !important;
+			border-color: #101010 !important;
+			transition: ease-out 0.2s !important;
+		}
+
+		.btn:active {
+			background-color: transparent !important;
+			color: #E7E7E7 !important;
+			transition: ease-out 0.2s !important;
+		}
+	</style>
+</head>
+
+<body class="email-body">
+<table>
+	<tr>
+		<td>
+			<a target="_new" href="{MyWebsiteUrl}">
+				<img alt="TH3-AZ" src="https://i.imgur.com/uh19Rbf.png">
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="heading">
+				Thank You for Registration
+			</div>
+			<div class="highlight">
+				{UserName}
+			</div>
+			<div class="info">
+				Confirm your email address
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<a class="btn" target="_blank" href="{UserVerificationURL}">
+				Here
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div class="info">
+				Link valid for {Validity} Hour(s)
+			</div>
+		</td>
+	</tr>
+</table>
+</body>
+
+</html>

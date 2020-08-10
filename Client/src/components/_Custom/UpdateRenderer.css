@@ -1,0 +1,68 @@
+.updates {
+	width: 100%;
+	font-family: 'Inconsolata', monospace !important;
+	text-align: left;
+	margin-left: 10px;
+}
+
+.updates span.console {
+	position: relative;
+	font-weight: 600 !important;
+	width: auto;
+	height: 20px;
+	line-height: 20px;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.updates span.console.prompt::before {
+	position: absolute;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	content: ">";
+	top: 0;
+	height: 100%;
+	transform: translateX(-15px);
+	color: #00FF00;
+}
+
+.updates span.console.success,
+.updates span.console.success * {
+	color: var(--color-console-green) !important;
+}
+
+.updates span.console.error,
+.updates span.console.error * {
+	color: var(--color-console-red) !important;
+}
+
+.updates span.console.important,
+.updates span.console.important * {
+	color: var(--color-console-yellow) !important;
+}
+
+.updates span.console:last-child::after {
+	position: absolute;
+	content: "";
+	height: 95%;
+	width: 2px;
+	right: 0px;
+	transform: translateY(1px) translateX(3px);
+	background-color: var(--color);
+	animation-name: ShowHide;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes ShowHide {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
