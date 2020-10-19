@@ -23,8 +23,10 @@ https://th3az-mern-registerlogin.herokuapp.com/
 ---
 
 ### Logins available by default
-**Admin:Admin@123** \
-**User:User@123**
+|Login Type|Username|Password|
+|---|---|---|
+|Admin: |**Admin**|**Admin@123** |
+|User: |**User**|**User@123**|
 
 **Or those details which you used for registration**
 
