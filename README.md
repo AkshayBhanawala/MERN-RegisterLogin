@@ -1,4 +1,4 @@
-# [Register & Login Demo [MERN]](https://th3az-mern-registerlogin.herokuapp.com/)
+# [Register & Login Demo [MERN]](https://akshaybhanawala.github.io/[Projects]/MERN-Register-Login-Demo)
 A demo Register and Login Application using MERN stack.
 Developed this to learn about the MERN stack.
 All there is to this app is to Register and Login.
@@ -18,7 +18,7 @@ After that there is nothing to see..
 ---
 
 ### Deployed URL
-https://th3az-mern-registerlogin.herokuapp.com/
+https://akshaybhanawala.github.io/[Projects]/MERN-Register-Login-Demo
 
 ---
 
